@@ -27,7 +27,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Properties" value="40" />
+          <entry key="Properties" value="47" />
         </counts>
       </usages-collector>
     </session>
@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/kp-service.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -117,12 +117,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548798451994</updated>
       <workItem from="1548798454008" duration="240000" />
-      <workItem from="1548800574598" duration="896000" />
+      <workItem from="1548800574598" duration="1060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1136000" />
+    <option name="totallyTimeSpent" value="1300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -168,7 +168,7 @@
     <entry file="file://$PROJECT_DIR$/kp-service.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
