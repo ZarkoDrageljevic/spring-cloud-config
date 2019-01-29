@@ -1,1 +1,28 @@
-message: RADIYML
+payment-service:
+  - BANK
+  - PAYPAL
+  - BITCOIN
+
+bank:
+  endpoint:
+    registration:
+    payment:
+  fields:
+    - accountNumber
+    - cardHolderName
+    - jmbg
+
+paypal:
+  endpoint:
+    registration:
+    payment:
+  fields:
+    - paypalId
+    - paypalSecret
+
+bitcoin:
+  endpoint:
+    registration:
+    payment:
+  fields:
+    - coinGateToken
