@@ -1,8 +1,8 @@
-#payment-service:
-#  - BANK
-#  - PAYPAL
-#  - BITCOIN
-#
+payment-service:
+  - BANK
+  - PAYPAL
+  - BITCOIN
+
 #bank:
 #  endpoint:
 #    registration: test
@@ -27,4 +27,4 @@
 #  fields:
 #    - coinGateToken
 
-message: HOLAA
+message: Pera
