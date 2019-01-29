@@ -1,28 +1,30 @@
-payment-service:
-  - BANK
-  - PAYPAL
-  - BITCOIN
+#payment-service:
+#  - BANK
+#  - PAYPAL
+#  - BITCOIN
+#
+#bank:
+#  endpoint:
+#    registration: test
+#    payment: test
+#  fields:
+#    - accountNumber
+#    - cardHolderName
+#    - jmbg
+#
+#paypal:
+#  endpoint:
+#    registration: test
+#    payment: test
+#  fields:
+#    - paypalId
+#    - paypalSecret
+#
+#bitcoin:
+#  endpoint:
+#    registration: test
+#    payment: test
+#  fields:
+#    - coinGateToken
 
-bank:
-  endpoint:
-    registration: test
-    payment: test
-  fields:
-    - accountNumber
-    - cardHolderName
-    - jmbg
-
-paypal:
-  endpoint:
-    registration: test
-    payment: test
-  fields:
-    - paypalId
-    - paypalSecret
-
-bitcoin:
-  endpoint:
-    registration: test
-    payment: test
-  fields:
-    - coinGateToken
+message: HOLAA
