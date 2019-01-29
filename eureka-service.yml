@@ -15,7 +15,7 @@ zuul:
       url: http://localhost:8301
     bitcoin-service:
       path: /bitcoin-service/**
-      url: http://localhost:8305
+      url: http://192.168.1.6:8305
     auth-service:
       path: /auth/**
       url: http://localhost:9043
