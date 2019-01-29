@@ -5,8 +5,8 @@ payment-service:
 
 bank:
   endpoint:
-    registration:
-    payment:
+    registration: test
+    payment: test
   fields:
     - accountNumber
     - cardHolderName
@@ -14,15 +14,15 @@ bank:
 
 paypal:
   endpoint:
-    registration:
-    payment:
+    registration: test
+    payment: test
   fields:
     - paypalId
     - paypalSecret
 
 bitcoin:
   endpoint:
-    registration:
-    payment:
+    registration: test
+    payment: test
   fields:
     - coinGateToken
