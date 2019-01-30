@@ -30,7 +30,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Properties" value="61" />
-          <entry key="YAML" value="279" />
+          <entry key="YAML" value="290" />
         </counts>
       </usages-collector>
     </session>
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kp-service.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -103,7 +103,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548806771567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548807085134" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -131,12 +131,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548798451994</updated>
       <workItem from="1548798454008" duration="240000" />
-      <workItem from="1548800574598" duration="5767000" />
+      <workItem from="1548800574598" duration="6094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6007000" />
+    <option name="totallyTimeSpent" value="6334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -195,8 +195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kp-service.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
