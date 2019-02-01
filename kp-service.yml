@@ -10,9 +10,10 @@ payment_service:
       registration: "registration/url"
       payment: "payment/url"
     fields:
-      accountNumber: string
-      cardHolderName: string
-      jmbg: string
+      - accountNumber
+      - cardHolderName
+      - jmbg
+
 blabla: blaaaa
 
 
