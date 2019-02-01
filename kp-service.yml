@@ -28,4 +28,9 @@ payment_services:
 #  fields:
 #    - coinGateToken
 
-message: Pera
+nacin-placanja:
+  endpoint: "ENDPOINT"
+  fields:
+    - naziv
+    - adresa
+    - sifra
