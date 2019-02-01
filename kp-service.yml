@@ -5,15 +5,16 @@ payment_services:
   - CETVRTI
 
 payment_service:
-	bank:
-	  endpoint:
-        registration: registration/url
-        payment: payment/url
-	  fields:
-        - accountNumber
-        - cardHolderName
-        - jmbg
+  bank:
+    endpoint:
+      registration: registration/url
+      payment: payment/url
+	fields:
+      - accountNumber
+      - cardHolderName
+      - jmbg
 
+blabla: blaaaa
 
 
 
