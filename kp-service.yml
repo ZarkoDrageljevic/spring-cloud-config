@@ -33,9 +33,9 @@ payment_services:
 #  fields:
 #    - coinGateToken
 
-nacin-placanja:
-  endpoint: "ENDPOINT"
-  fields:
-    - naziv
-    - adresa
-    - sifra
+#nacin-placanja:
+#  endpoint: "ENDPOINT"
+#  fields:
+#    - naziv
+#    - adresa
+#    - sifra
