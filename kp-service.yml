@@ -5,14 +5,18 @@ payment_services:
   - CETVRTI
 
 payment_service:
-	bank:
-		endpoint:
-			registration: registration/url
-			payment: payment/url
-		fields:
-			accountNumber : string
-			cardHolderName : string
-			jmbg : string
+	servis:
+	  name : bank
+		endpoint: pera
+		fields: mika
+		
+		
+#			registration: registration/url
+#			payment: payment/url
+		
+#			accountNumber : string
+#			cardHolderName : string
+#			jmbg : string
 
 #paypal:
 #  endpoint:
