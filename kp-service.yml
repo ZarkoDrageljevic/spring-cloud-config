@@ -7,13 +7,12 @@ payment_services:
 payment_service:
   bank:
     endpoint:
-    registration: "registration/url"
+      registration: "registration/url"
       payment: "payment/url"
-      fields:
-        - accountNumber
-        - cardHolderName
-        - jmbg
-
+    fields:
+      - accountNumber
+      - cardHolderName
+      - jmbg
 blabla: blaaaa
 
 
