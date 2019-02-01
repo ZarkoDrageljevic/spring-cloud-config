@@ -7,8 +7,8 @@ payment_services:
 payment_service:
   bank:
     endpoint:
-    registration: registration/url
-      payment: payment/url
+    registration: "registration/url"
+      payment: "payment/url"
       fields:
         - accountNumber
         - cardHolderName
