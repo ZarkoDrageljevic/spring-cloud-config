@@ -4,14 +4,15 @@ payment_services:
   - BITCOIN
   - CETVRTI
 
-#bank:
-#  endpoint:
-#    registration: test
-#    payment: test
-#  fields:
-#    - accountNumber
-#    - cardHolderName
-#    - jmbg
+payment_service:
+	bank:
+		endpoint:
+			registration: registration/url
+			payment: payment/url
+		fields:
+			accountNumber : string
+			cardHolderName : string
+			jmbg : string
 #
 #paypal:
 #  endpoint:
