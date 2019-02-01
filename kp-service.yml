@@ -7,12 +7,25 @@ payment_services:
 payment_service:
   bank:
     endpoint:
-      registration: "registration/url"
-      payment: "payment/url"
+      registration: "registration/bank"
+      payment: "payment/bank"
     fields:
       accountNumber: string
       cardHolderName: string
       jmbg: string
+  paypal:
+    endpoint:
+      registration: "registration/paypal"
+      payment: "payment/paypal"
+    fields:
+      paypalId: string
+      paypalSecret: string
+  bitcoin:
+    endpoint:
+      registration: "registration/bitcoin"
+      payment: "payment/bitcoin"
+    fields:
+      coinGateToken: string
 
 blabla: blaaaa
 
