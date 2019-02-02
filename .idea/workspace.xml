@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483a13e4-a31c-4725-b5c3-757408b5eb4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kp-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kp-service.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +32,7 @@
         <counts>
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="Properties" value="61" />
-          <entry key="YAML" value="730" />
+          <entry key="YAML" value="735" />
         </counts>
       </usages-collector>
     </session>
@@ -51,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/kp-service.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -114,7 +115,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548807367930" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549119503760" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -148,12 +149,12 @@
       <updated>1548798451994</updated>
       <workItem from="1548798454008" duration="240000" />
       <workItem from="1548800574598" duration="6364000" />
-      <workItem from="1549106237489" duration="5178000" />
+      <workItem from="1549106237489" duration="5484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22041000" />
+    <option name="totallyTimeSpent" value="22347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1" width="1346" height="688" extended-state="0" />
@@ -214,7 +215,7 @@
     <entry file="file://$PROJECT_DIR$/kp-service.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
