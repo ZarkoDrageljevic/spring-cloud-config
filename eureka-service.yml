@@ -19,3 +19,6 @@ zuul:
     auth-service:
       path: /auth/**
       url: http://localhost:9043
+    bank-proxy-ms-service:
+      path: /bank-proxy-service/**
+      url: http://192.168.0.19:8303
