@@ -6,7 +6,7 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-  BLABLABLA:
+  trablabla:
     - dassda
 
 payment_service:
