@@ -6,7 +6,7 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-  asfafs:
+  JEDIMIGOVNA:
     - dassda
 
 payment_service:
