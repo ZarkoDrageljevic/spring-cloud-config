@@ -6,10 +6,8 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-  IDEMONESTOTRECE:
-    - gsasdg
-  STAKOJIKURAC:
-    - fassfa
+  RADIMOLIMTE:
+    - asffas
 
 payment_service:
   bank-erste:
