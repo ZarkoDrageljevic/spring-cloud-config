@@ -26,7 +26,7 @@ payment_service:
       jmbg: string
   paypal:
     endpoint:
-      registration: "http://localhost:8301/paypal/user"
+      registration: "http://localhost:8301/paypal/user/"
       payment: "payment/paypal"
     fields:
       paypalId: string
