@@ -7,7 +7,7 @@ payment_services:
   BITCOIN:
     - bitcoin
   RADIMOLIMTE:
-    - asffas
+    - asf
 
 payment_service:
   bank-erste:
@@ -39,4 +39,5 @@ payment_service:
       payment: "payment/bitcoin"
     fields:
       coinGateToken: string
+      newfieldinbitcoint: string
 
