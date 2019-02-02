@@ -7,7 +7,7 @@ payment_services:
   BITCOIN:
     - bitcoin
   NSAFFA:
-    - paaa
+    - paas
 
 payment_service:
   bank-erste:
