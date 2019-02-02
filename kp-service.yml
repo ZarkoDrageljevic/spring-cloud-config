@@ -38,6 +38,6 @@ payment_service:
       registration: "http://localhost:8305/bitcoin/user/"
       payment: "payment/bitcoin"
     fields:
-      coinGateToken: string
+      coinGateTokens: string
       newfieldinbitcoint: string
 
