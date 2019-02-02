@@ -29,7 +29,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Properties" value="61" />
-          <entry key="YAML" value="613" />
+          <entry key="YAML" value="618" />
         </counts>
       </usages-collector>
     </session>
@@ -138,7 +138,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14638000" />
+    <option name="totallyTimeSpent" value="14913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
