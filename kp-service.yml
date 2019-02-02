@@ -6,6 +6,8 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
+  AFS:
+    - fas
 
 payment_service:
   bank-erste:
