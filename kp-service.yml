@@ -9,7 +9,7 @@ payment_services:
 payment_service:
   bank-erste:
     endpoint:
-      registration: "http://localhost:8303/registration/"
+      registration: "http://192.168.0.19:8303/registration/"
       payment: "payment/bank"
     fields:
       accountNumber: string
