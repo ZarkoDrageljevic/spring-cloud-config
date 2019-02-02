@@ -6,8 +6,8 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-  NESTO:
-    - dassda
+  IDEMONESTOTRECE:
+    - gsasdg
 
 payment_service:
   bank-erste:
