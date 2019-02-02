@@ -3,6 +3,7 @@ payment_services:
   - PAYPAL
   - BITCOIN
   - CETVRTI
+  - PETI
 
 payment_service:
   bank:
