@@ -6,7 +6,7 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-  mica:
+  KOJIDJAVO:
     - dassda
 
 payment_service:
