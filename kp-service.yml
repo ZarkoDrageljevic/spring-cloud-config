@@ -3,7 +3,7 @@ payment_services:
   - PAYPAL
   - BITCOIN
   - CETVRTI
-  - RabbitRadi
+  - RabbitRadiSuper
 
 payment_service:
   bank:
