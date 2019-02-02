@@ -6,8 +6,6 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-  NEKICETVRTI2123:
-    - tralalasssss
 
 payment_service:
   bank-erste:
