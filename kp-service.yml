@@ -6,6 +6,8 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
+  NSAFFA:
+    - paaa
 
 payment_service:
   bank-erste:
