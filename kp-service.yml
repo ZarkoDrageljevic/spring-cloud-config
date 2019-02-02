@@ -3,7 +3,6 @@ payment_services:
   - PAYPAL
   - BITCOIN
   - CETVRTI
-  - DA LI SAM JA IDIOT?
 
 payment_service:
   bank:
