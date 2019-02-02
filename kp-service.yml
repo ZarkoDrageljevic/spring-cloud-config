@@ -1,11 +1,22 @@
 payment_services:
-  - BANK
-  - PAYPAL
-  - BITCOIN
-  - CETVRTI
+  BANK:
+    - bank-erste
+    - bank-raiffheisen
+  PAYPAL:
+    - paypal
+  BITCOIN:
+    - bitcoin
 
 payment_service:
-  bank:
+  bank-erste:
+    endpoint:
+      registration: "registration/bank"
+      payment: "payment/bank"
+    fields:
+      accountNumber: string
+      cardHolderName: string
+      jmbg: string
+  bank-raiffheisen:
     endpoint:
       registration: "registration/bank"
       payment: "payment/bank"
@@ -27,29 +38,3 @@ payment_service:
     fields:
       coinGateToken: string
 
-blabla: blaaaa
-
-
-
-
-#paypal:
-#  endpoint:
-#    registration: test
-#    payment: test
-#  fields:
-#    - paypalId
-#    - paypalSecret
-#
-#bitcoin:
-#  endpoint:
-#    registration: test
-#    payment: test
-#  fields:
-#    - coinGateToken
-
-#nacin-placanja:
-#  endpoint: "ENDPOINT"
-#  fields:
-#    - naziv
-#    - adresa
-#    - sifra
