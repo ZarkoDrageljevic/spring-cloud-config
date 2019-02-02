@@ -6,8 +6,6 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-  RADIMOLIMTE:
-    - asf
 
 payment_service:
   bank-erste:
@@ -38,6 +36,5 @@ payment_service:
       registration: "http://localhost:8305/bitcoin/user/"
       payment: "payment/bitcoin"
     fields:
-      coinGateTokens: string
-      newfieldinbitcoint: string
+      coinGateToken: string
 
