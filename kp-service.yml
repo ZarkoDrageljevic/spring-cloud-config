@@ -6,7 +6,7 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-  NEKICETVRTI:
+  NEKICETVRTI2:
     - tralalasssss
 
 payment_service:
