@@ -6,7 +6,7 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-  JEDIMIGOVNA:
+  BLABLABLA:
     - dassda
 
 payment_service:
