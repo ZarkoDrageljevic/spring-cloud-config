@@ -35,7 +35,7 @@ payment_service:
       paypalSecret: string
   bitcoin:
     endpoint:
-      registration: "registration/bitcoin"
+      registration: "http://localhost:8305/bitcoin/user/"
       payment: "payment/bitcoin"
     fields:
       coinGateToken: string
