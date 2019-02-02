@@ -4,6 +4,7 @@ payment_services:
   - BITCOIN
   - CETVRTI
   - RabbitRadiExtraSuper
+  - STO ME JEBES
 
 payment_service:
   bank:
