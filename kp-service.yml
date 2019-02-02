@@ -6,7 +6,6 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-
 payment_service:
   bank-erste:
     endpoint:
