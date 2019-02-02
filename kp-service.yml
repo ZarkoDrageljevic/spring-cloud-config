@@ -6,6 +6,8 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
+  NEKICETVRTI:
+    - tralala
 
 payment_service:
   bank-erste:
