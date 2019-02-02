@@ -9,12 +9,13 @@ payment_services:
 payment_service:
   bank-erste:
     endpoint:
-      registration: "registration/bank"
+      registration: "http://localhost:8303/registration/"
       payment: "payment/bank"
     fields:
       accountNumber: string
       cardHolderName: string
       jmbg: string
+      bankName: string
   bank-raiffheisen:
     endpoint:
       registration: "registration/bank"
