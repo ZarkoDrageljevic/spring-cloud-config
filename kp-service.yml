@@ -8,6 +8,8 @@ payment_services:
     - bitcoin
   IDEMONESTOTRECE:
     - gsasdg
+  STAKOJIKURAC:
+    - fassfa
 
 payment_service:
   bank-erste:
