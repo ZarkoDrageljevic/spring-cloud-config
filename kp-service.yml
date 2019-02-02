@@ -6,8 +6,6 @@ payment_services:
     - paypal
   BITCOIN:
     - bitcoin
-  AFS:
-    - fas
 
 payment_service:
   bank-erste:
@@ -28,7 +26,7 @@ payment_service:
       jmbg: string
   paypal:
     endpoint:
-      registration: "registration/paypal"
+      registration: "http://localhost:8301/paypal/user"
       payment: "payment/paypal"
     fields:
       paypalId: string
@@ -39,4 +37,3 @@ payment_service:
       payment: "payment/bitcoin"
     fields:
       coinGateToken: string
-
