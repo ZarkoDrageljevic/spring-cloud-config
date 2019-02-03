@@ -9,8 +9,8 @@ payment_services:
 payment_service:
   bank-erste:
     endpoint:
-      registration: "http://192.168.0.19:8303/registration/"
-      payment: "payment/bank"
+      registration: "http://localhost:8302/api/bank-proxy-service/registration/"
+      payment: "http://localhost:8302/api/bank-proxy-service/process_transaction"
     fields:
       accountNumber: string
       cardHolderName: string
