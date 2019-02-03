@@ -10,7 +10,7 @@ payment_service:
   bank-erste:
     endpoint:
       registration: "http://localhost:8302/api/bank-proxy-service/registration/"
-      payment: "http://localhost:8302/api/bank-proxy-service/process_transaction"
+      payment: "http://localhost:8302/api/bank-proxy-service/initialize"
     fields:
       accountNumber: string
       cardHolderName: string
