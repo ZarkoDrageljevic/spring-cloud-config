@@ -26,15 +26,15 @@ payment_service:
       jmbg: string
   paypal:
     endpoint:
-      registration: "http://localhost:8301/paypal/user/"
-      payment: "payment/paypal"
+      registration: "http://localhost:8302/api/pay-pal-service/paypal/user/"
+      payment: "http://localhost:8302/api/pay-pal-service/paypal/make/payment"
     fields:
       paypalId: string
       paypalSecret: string
   bitcoin:
     endpoint:
-      registration: "http://localhost:8305/bitcoin/user/"
-      payment: "payment/bitcoin"
+      registration: "http://localhost:8302/api/bitcoin-service/bitcoin/user/"
+      payment: "http://localhost:8302/api/bitcoin-service/bitcoin/make/payment"
     fields:
       coinGateToken: string
       
