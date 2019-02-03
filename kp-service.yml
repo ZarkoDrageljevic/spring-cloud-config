@@ -37,3 +37,5 @@ payment_service:
       payment: "payment/bitcoin"
     fields:
       coinGateToken: string
+      
+authserviceurl: http://localhost:8302/api/auth/token
