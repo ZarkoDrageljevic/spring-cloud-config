@@ -15,10 +15,10 @@ zuul:
       url: http://localhost:8301
     bitcoin-service:
       path: /bitcoin-service/**
-      url: http://192.168.1.6:8305
+      url: http://localhost:8305
     auth-service:
       path: /auth/**
       url: http://localhost:9043
     bank-proxy-ms-service:
       path: /bank-proxy-service/**
-      url: http://192.168.0.19:8303
+      url: http://localhost:8303
