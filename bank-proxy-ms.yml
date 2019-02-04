@@ -1,3 +1,3 @@
 bankName:
-  bank-erste: "http://localhost:9002"
-  bank-raiffheisen: "http://localhost:9003"
+  bank-erste: "http://192.168.0.19:9002"
+  bank-raiffheisen: "http://192.168.19:9003"
