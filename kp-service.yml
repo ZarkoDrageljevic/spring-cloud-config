@@ -1,13 +1,9 @@
 payment_services:
-  BANK:
-    - bank-erste
-    - bank-raiffheisen
-  PAYPAL:
-    - paypal
-  BITCOIN:
-    - bitcoin
+  - bank
+  - paypal
+  - bitcoin
 payment_service:
-  bank-erste:
+  bank:
     endpoint:
       registration: "http://localhost:8302/api/bank-proxy-service/registration/"
       payment: "http://localhost:8302/api/bank-proxy-service/initialize"
@@ -16,14 +12,6 @@ payment_service:
       cardHolderName: string
       jmbg: string
       bankName: string
-  bank-raiffheisen:
-    endpoint:
-      registration: "registration/bank"
-      payment: "payment/bank"
-    fields:
-      accountNumber: string
-      cardHolderName: string
-      jmbg: string
   paypal:
     endpoint:
       registration: "http://localhost:8302/api/pay-pal-service/paypal/user/"
