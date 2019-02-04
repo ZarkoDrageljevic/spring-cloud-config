@@ -1,12 +1,6 @@
 zuul:
   prefix: /api
   routes:
-    bank-service-raiffheisen:
-      path: /bank-service-raiffheisen/**
-      url: http://localhost:9003
-    bank-service-erste:
-      path: /bank-service-erste/**
-      url: http://localhost:9002
     db-service:
       path: /kp-service/**
       url: http://localhost:8300
