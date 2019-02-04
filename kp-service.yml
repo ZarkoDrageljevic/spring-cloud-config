@@ -28,9 +28,11 @@ payment_service:
     endpoint:
       registration: "http://localhost:8302/api/pay-pal-service/paypal/user/"
       payment: "http://localhost:8302/api/pay-pal-service/paypal/make/payment"
+      subscription: "http://localhost:8302/api/pay-pal-service/paypal/make/createBillingAgreement"
     fields:
       paypalId: string
       paypalSecret: string
+      subscription: string
   bitcoin:
     endpoint:
       registration: "http://localhost:8302/api/bitcoin-service/bitcoin/user/"
