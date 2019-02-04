@@ -1,3 +1,13 @@
 bankName:
-  bank-erste: "http://192.168.0.19:9002"
-  bank-raiffheisen: "http://192.168.19:9003"
+  bank-erste: 
+    endpoint:
+      registration: "http://192.168.0.19:9002/generate-credentials"
+      payment: "http://192.168.0.19:9002/initialize"
+      getsuccessfull: "http://192.168.0.19:9002/successful_seller_transactions"
+      getunprocesed: "http://192.168.0.19:9002/get_payment_statuses"
+  bank-raiffheisen:
+    endpoint:
+      registration: "http://192.168.0.19:9003/generate-credentials"
+      payment: "http://192.168.0.19:9003/initialize"
+      getsuccessfull: "http://192.168.0.19:9003/successful_seller_transactions"
+      getunprocesed: "http://192.168.0.19:9003/get_payment_statuses"
