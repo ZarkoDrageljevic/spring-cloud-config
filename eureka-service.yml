@@ -16,3 +16,4 @@ zuul:
     bank-proxy-ms-service:
       path: /bank-proxy-service/**
       url: http://localhost:8303
+  sslHostnameValidationEnabled: false
