@@ -18,6 +18,7 @@ payment_service:
       registration: "http://localhost:8302/api/pay-pal-service/paypal/user/"
       payment: "http://localhost:8302/api/pay-pal-service/paypal/make/payment"
       subscription: "http://localhost:8302/api/pay-pal-service/paypal/createBillingAgreement"
+      jbo: "http://localhost:8302/api/pay-pal-service/paypal/get_unprocessed_transactions"
     fields:
       paypalId: string
       paypalSecret: string
@@ -28,6 +29,7 @@ payment_service:
     endpoint:
       registration: "http://localhost:8302/api/bitcoin-service/bitcoin/user/"
       payment: "http://localhost:8302/api/bitcoin-service/bitcoin/make/payment"
+      job = "http://localhost:8302/api/bitcoin-service/bitcoin/get_unprocessed_transactions"
     fields:
       coinGateToken: string
       
