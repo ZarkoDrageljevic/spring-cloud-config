@@ -1,0 +1,8 @@
+endpoints:
+  payment-cancel: "http://localhost:8301/paypal/cancel/payment"
+  payment-complete: "http://localhost:8301/paypal/complete/payment"
+  kp-success: "http://localhost:8300/transactions/success/"
+  kp-invalid: "http://localhost:8300/transactions/invalid/"
+  subscribe-cancel: "http://localhost:8301/paypal/cancel/billingAgreement"
+  subscribe-complete: "http://localhost:8301/paypal/complete/billingAgreement"
+  paypal-payment-api: "https://api.sandbox.paypal.com/v1/payments/payment/"
