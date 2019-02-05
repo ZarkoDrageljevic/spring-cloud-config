@@ -29,7 +29,7 @@ payment_service:
     endpoint:
       registration: "http://localhost:8302/api/bitcoin-service/bitcoin/user/"
       payment: "http://localhost:8302/api/bitcoin-service/bitcoin/make/payment"
-      job = "http://localhost:8302/api/bitcoin-service/bitcoin/get_unprocessed_transactions"
+      job: "http://localhost:8302/api/bitcoin-service/bitcoin/get_unprocessed_transactions"
     fields:
       coinGateToken: string
       
