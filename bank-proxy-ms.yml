@@ -2,12 +2,12 @@ bankName:
   bank-erste: 
     endpoint:
       registration: "http://localhost:9002/generate-credentials"
-      payment: "http://localhost:9002/initialize"
-      getsuccessfull: "http://localhost:9002/successful_seller_transactions"
-      getunprocesed: "http://localhost:9002/get_payment_statuses"
+      payment: "http://localhost:9002/payment/initialize"
+      getsuccessfull: "http://localhost:9002/payment/successful_seller_transactions"
+      getunprocesed: "http://localhost:9002/payment/get_payment_statuses"
   bank-raiffheisen:
     endpoint:
       registration: "http://localhost:9003/generate-credentials"
-      payment: "http://localhost:9003/initialize"
-      getsuccessfull: "http://localhost:9003/successful_seller_transactions"
-      getunprocesed: "http://localhost:9003/get_payment_statuses"
+      payment: "http://localhost:9003/payment/initialize"
+      getsuccessfull: "http://localhost:9003/payment/successful_seller_transactions"
+      getunprocesed: "http://localhost:9003/payment/get_payment_statuses"
