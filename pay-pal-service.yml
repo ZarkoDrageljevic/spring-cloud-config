@@ -1,3 +1,4 @@
+paypalTest: "testPayPal"
 endpoints:
   payment-cancel: "http://localhost:8301/paypal/cancel/payment"
   payment-complete: "http://localhost:8301/paypal/complete/payment"
