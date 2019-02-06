@@ -1,40 +1,35 @@
 payment_services:
-  BANK:
-    - bank-erste
-    - bank-raiffheisen
-  PAYPAL:
-    - paypal
-  BITCOIN:
-    - bitcoin
+  - bank
+  - paypal
+  - bitcoin
 payment_service:
-  bank-erste:
+  bank:
     endpoint:
-      registration: "http://192.168.0.19:8303/registration/"
-      payment: "payment/bank"
+      registration: "http://localhost:8302/api/bank-proxy-service/registration/"
+      payment: "http://localhost:8302/api/bank-proxy-service/initialize"
+      job: "http://localhost:8302/api/bank-proxy-service/get_unprocessed_transactions"
     fields:
       accountNumber: string
       cardHolderName: string
       jmbg: string
       bankName: string
-  bank-raiffheisen:
-    endpoint:
-      registration: "registration/bank"
-      payment: "payment/bank"
-    fields:
-      accountNumber: string
-      cardHolderName: string
-      jmbg: string
   paypal:
     endpoint:
       registration: "http://localhost:8302/api/pay-pal-service/paypal/user/"
       payment: "http://localhost:8302/api/pay-pal-service/paypal/make/payment"
+      subscription: "http://localhost:8302/api/pay-pal-service/paypal/createBillingAgreement"
+      job: "http://localhost:8302/api/pay-pal-service/paypal/get_unprocessed_transactions"
     fields:
       paypalId: string
       paypalSecret: string
+      subscription: string
+      succesUrl: string
+      failUrl: string
   bitcoin:
     endpoint:
       registration: "http://localhost:8302/api/bitcoin-service/bitcoin/user/"
       payment: "http://localhost:8302/api/bitcoin-service/bitcoin/make/payment"
+      job: "http://localhost:8302/api/bitcoin-service/bitcoin/get_unprocessed_transactions"
     fields:
       coinGateToken: string
       
