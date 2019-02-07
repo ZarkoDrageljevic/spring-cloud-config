@@ -23,8 +23,6 @@ payment_service:
       paypalId: string
       paypalSecret: string
       subscription: string
-      succesUrl: string
-      failUrl: string
   bitcoin:
     endpoint:
       registration: "http://localhost:8302/api/bitcoin-service/bitcoin/user/"
