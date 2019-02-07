@@ -9,10 +9,24 @@ payment_service:
       payment: "http://localhost:8302/api/bank-proxy-service/initialize"
       job: "http://localhost:8302/api/bank-proxy-service/get_unprocessed_transactions"
     fields:
-      accountNumber: string
-      cardHolderName: string
-      jmbg: string
-      bankName: string
+      accountNumber:
+        type: string
+        label: "Account Number"
+        value: []
+      cardHolderName:
+        type: string
+        label: "Card Holder Name"
+        value: []
+      jmbg:
+        type: string
+        label: "JMBG"
+        value: []
+      bankName:
+        type: enum
+        label: "Bank Name"
+        value:
+          - bank-erste
+          - bank-raiffhaisen
   paypal:
     endpoint:
       registration: "http://localhost:8302/api/pay-pal-service/paypal/user/"
