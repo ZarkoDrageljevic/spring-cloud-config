@@ -7,3 +7,5 @@ endpoints:
   subscribe-cancel: "http://localhost:8301/paypal/cancel/billingAgreement"
   subscribe-complete: "http://localhost:8301/paypal/complete/billingAgreement"
   paypal-payment-api: "https://api.sandbox.paypal.com/v1/payments/payment/"
+  kp-subscribe-success: "http://localhost:8302/api/kp-service/subscription/success/"
+  kp-subscribe-invalid: "http://localhost:8302/api/kp-service/subscription/invalid"
