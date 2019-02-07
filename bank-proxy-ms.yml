@@ -1,17 +1,17 @@
 bankName:
   bank-erste: 
     endpoint:
-      registration: "http://localhost:9002/generate-credentials"
-      payment: "http://localhost:9002/payment/initialize"
-      getsuccessfull: "http://localhost:9002/payment/successful_seller_transactions"
-      getunprocesed: "http://localhost:9002/payment/get_payment_statuses"
+      registration: "http://192.168.0.19:9002/generate-credentials"
+      payment: "http://192.168.0.19:9002/payment/initialize"
+      getsuccessfull: "http://192.168.0.19:9002/payment/successful_seller_transactions"
+      getunprocesed: "http://192.168.0.19:9002/payment/get_payment_statuses"
       job: "http://192.168.0.19:9002/payment/get_payment_statuses"
   bank-raiffheisen:
     endpoint:
-      registration: "http://localhost:9003/generate-credentials"
-      payment: "http://localhost:9003/payment/initialize"
-      getsuccessfull: "http://localhost:9003/payment/successful_seller_transactions"
-      getunprocesed: "http://localhost:9003/payment/get_payment_statuses"
+      registration: "http://192.168.0.19:9003/generate-credentials"
+      payment: "http://192.168.0.19:9003/payment/initialize"
+      getsuccessfull: "http://192.168.0.19:9003/payment/successful_seller_transactions"
+      getunprocesed: "http://192.168.0.19:9003/payment/get_payment_statuses"
       job: "http://192.168.0.19:9003/payment/get_payment_statuses"
 kpendpoints:
   kpsuccess: "http://localhost:8300/transactions/success/"
