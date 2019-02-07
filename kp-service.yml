@@ -2,7 +2,6 @@ payment_services:
   - bank
   - paypal
   - bitcoin
-  - a
 payment_service:
   bank:
     endpoint:
