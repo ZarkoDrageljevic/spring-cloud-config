@@ -26,7 +26,7 @@ payment_service:
         label: "Bank Name"
         value:
           - bank-erste
-          - bank-raiffhaisen
+          - bank-raiffheisen
   paypal:
     endpoint:
       registration: "http://localhost:8302/api/pay-pal-service/paypal/user/"
