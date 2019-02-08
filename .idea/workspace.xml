@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483a13e4-a31c-4725-b5c3-757408b5eb4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/kp-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kp-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-pal-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-pal-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,12 +204,12 @@
       <workItem from="1549564932027" duration="3083000" />
       <workItem from="1549587582691" duration="2337000" />
       <workItem from="1549648841097" duration="4189000" />
-      <workItem from="1549663534385" duration="1437000" />
+      <workItem from="1549663534385" duration="2048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46928000" />
+    <option name="totallyTimeSpent" value="47539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
