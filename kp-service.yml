@@ -5,9 +5,9 @@ payment_services:
 payment_service:
   bank:
     endpoint:
-      registration: "https://localhost:8302/api/bank-proxy-service/registration/"
-      payment: "https://localhost:8302/api/bank-proxy-service/initialize"
-      job: "https://localhost:8302/api/bank-proxy-service/get_unprocessed_transactions"
+      registration: "https://localhost:8081/api/bank-proxy-service/registration/"
+      payment: "https://localhost:8081/api/bank-proxy-service/initialize"
+      job: "https://localhost:8081/api/bank-proxy-service/get_unprocessed_transactions"
     fields:
       accountNumber:
         type: string
@@ -29,10 +29,10 @@ payment_service:
           - bank-raiffheisen
   paypal:
     endpoint:
-      registration: "https://localhost:8302/api/pay-pal-service/paypal/user/"
-      payment: "https://localhost:8302/api/pay-pal-service/paypal/make/payment"
-      subscription: "https://localhost:8302/api/pay-pal-service/paypal/createBillingAgreement"
-      job: "https://localhost:8302/api/pay-pal-service/paypal/get_unprocessed_transactions"
+      registration: "https://localhost:8081/api/pay-pal-service/paypal/user/"
+      payment: "https://localhost:8081/api/pay-pal-service/paypal/make/payment"
+      subscription: "https://localhost:8081/api/pay-pal-service/paypal/createBillingAgreement"
+      job: "https://localhost:8081/api/pay-pal-service/paypal/get_unprocessed_transactions"
     fields:
       paypalId:
         type: string
@@ -48,13 +48,13 @@ payment_service:
         value: []
   bitcoin:
     endpoint:
-      registration: "https://localhost:8302/api/bitcoin-service/bitcoin/user/"
-      payment: "https://localhost:8302/api/bitcoin-service/bitcoin/make/payment"
-      job: "https://localhost:8302/api/bitcoin-service/bitcoin/get_unprocessed_transactions"
+      registration: "https://localhost:8081/api/bitcoin-service/bitcoin/user/"
+      payment: "https://localhost:8081/api/bitcoin-service/bitcoin/make/payment"
+      job: "https://localhost:8081/api/bitcoin-service/bitcoin/get_unprocessed_transactions"
     fields:
       coinGateToken:
         type: string
         label: "Coin Gate Token"
         value: []
       
-authserviceurl: https://localhost:8302/api/auth/token
+authserviceurl: https://localhost:8081/api/auth/token
