@@ -4,17 +4,17 @@ zuul:
   routes:
     db-service:
       path: /kp-service/**
-      url: http://localhost:8300
+      url: https://localhost:8300
     stock-service:
       path: /pay-pal-service/**
-      url: http://localhost:8301
+      url: https://localhost:8301
     bitcoin-service:
       path: /bitcoin-service/**
-      url: http://localhost:8305
+      url: https://localhost:8305
     auth-service:
       path: /auth/**
-      url: http://localhost:9043
+      url: https://localhost:9043
     bank-proxy-ms-service:
       path: /bank-proxy-service/**
-      url: http://localhost:8303
+      url: https://localhost:8303
   sslHostnameValidationEnabled: false
