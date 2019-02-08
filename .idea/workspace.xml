@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483a13e4-a31c-4725-b5c3-757408b5eb4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,20 +40,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-service.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="18" />
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zuul-gateway.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="239">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -73,8 +72,8 @@
         <option value="$PROJECT_DIR$/bitcoin-service.yml" />
         <option value="$PROJECT_DIR$/pay-pal-service.yml" />
         <option value="$PROJECT_DIR$/bank-proxy-ms.yml" />
-        <option value="$PROJECT_DIR$/zuul-gateway.yml" />
         <option value="$PROJECT_DIR$/eureka-service.yml" />
+        <option value="$PROJECT_DIR$/zuul-gateway.yml" />
       </list>
     </option>
   </component>
@@ -156,12 +155,12 @@
       <workItem from="1549563018872" duration="47000" />
       <workItem from="1549564932027" duration="3083000" />
       <workItem from="1549587582691" duration="2337000" />
-      <workItem from="1549648841097" duration="754000" />
+      <workItem from="1549648841097" duration="2187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42056000" />
+    <option name="totallyTimeSpent" value="43489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -244,14 +243,14 @@
     <entry file="file://$PROJECT_DIR$/eureka-service.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="18" />
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zuul-gateway.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="239">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
