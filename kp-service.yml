@@ -7,7 +7,7 @@ payment_service:
     endpoint:
       registration: "https://localhost:8083/api/bank-proxy-service/registration/"
       payment: "https://localhost:8083/api/bank-proxy-service/initialize"
-      job: "https://localhost:8303/get_unprocessed_transactions"
+      job: "https://localhost:8083/api/bank-proxy-service/get_unprocessed_transactions"
     fields:
       accountNumber:
         type: string
