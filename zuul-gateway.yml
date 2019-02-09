@@ -1,3 +1,7 @@
+server:
+  ssl:
+    enable-protocol: TLSv1.2
+
 zuul:
   sensitiveHeaders: Set-Cookie
   prefix: /api
