@@ -1,13 +1,13 @@
 payment_services:
   - bank
-  - paypal
+  - paypalt
   - bitcoin
 payment_service:
   bank:
     endpoint:
-      registration: "https://localhost:8083/api/bank-proxy-service/registration/"
-      payment: "https://localhost:8083/api/bank-proxy-service/initialize"
-      job: "https://localhost:8083/api/bank-proxy-service/get_unprocessed_transactions"
+      registration: "https://192.168.0.16:8083/api/bank-proxy-service/registration/"
+      payment: "https://192.168.0.16:8083/api/bank-proxy-service/initialize"
+      job: "https://192.168.0.16:8083/api/bank-proxy-service/get_unprocessed_transactions"
     fields:
       accountNumber:
         type: string
