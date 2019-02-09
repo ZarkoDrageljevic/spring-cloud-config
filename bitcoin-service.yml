@@ -1,6 +1,6 @@
 endpoints:
   coin-gate-api: "https://api-sandbox.coingate.com/v2/orders"
-  success-url: "https://localhost:8305/bitcoin/success/"
-  cancel-url: "https://localhost:8305/bitcoin/cancel/"
+  success-url: "https://192.168.0.16:8305/bitcoin/success/"
+  cancel-url: "https://192.168.0.16:8305/bitcoin/cancel/"
   kp-success: "https://localhost:8300/transactions/success/"
   kp-invalid: "https://localhost:8300/transactions/invalid/"
