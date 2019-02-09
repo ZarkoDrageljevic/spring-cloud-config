@@ -32,7 +32,7 @@ payment_service:
       registration: "https://localhost:8083/api/pay-pal-service/paypal/user/"
       payment: "https://localhost:8083/api/pay-pal-service/paypal/make/payment"
       subscription: "https://localhost:8083/api/pay-pal-service/paypal/createBillingAgreement"
-      job: "https://localhost:8301/paypal/get_unprocessed_transactions"
+      job: "https://localhost:8083/api/pay-pal-service/paypal/get_unprocessed_transactions"
     fields:
       paypalId:
         type: string
@@ -50,7 +50,7 @@ payment_service:
     endpoint:
       registration: "https://localhost:8083/api/bitcoin-service/bitcoin/user/"
       payment: "https://localhost:8083/api/bitcoin-service/bitcoin/make/payment"
-      job: "https://localhost:8305/bitcoin/get_unprocessed_transactions"
+      job: "https://localhost:8083/api/bitcoin-service/bitcoin/get_unprocessed_transactions"
     fields:
       coinGateToken:
         type: string
