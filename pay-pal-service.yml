@@ -1,7 +1,7 @@
 paypalTest: micaaaa
 endpoints:
-  payment-cancel: "https://localhost:8301/paypal/cancel/payment"
-  payment-complete: "https://localhost:8301/paypal/complete/payment"
+  payment-cancel: "https://192.168.0.16:8301/paypal/cancel/payment"
+  payment-complete: "https://192.168.0.16:8301/paypal/complete/payment"
   kp-success: "https://localhost:8300/transactions/success/"
   kp-invalid: "https://localhost:8300/transactions/invalid/"
   subscribe-cancel: "https://localhost:8301/paypal/cancel/billingAgreement"
